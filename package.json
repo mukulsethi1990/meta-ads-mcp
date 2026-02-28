@@ -1,0 +1,27 @@
+{
+  "name": "meta-ads-mcp",
+  "version": "3.0.0",
+  "main": "build/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/server.js",
+    "dev": "ts-node --esm src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["mcp", "meta-ads", "facebook-ads"],
+  "author": "",
+  "license": "ISC",
+  "description": "MCP server for managing Meta (Facebook) Ads — campaigns, ad sets, ads, and insights",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "dotenv": "^17.2.4",
+    "node-fetch": "^3.3.2",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "type": "module"
+}

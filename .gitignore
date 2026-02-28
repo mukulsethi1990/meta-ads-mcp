@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Environment variables (contains secrets)
+.env
+.env.*
+
+# Build output
+build/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Claude worktrees & config
+.claude/
+
+# Logs
+*.log
+npm-debug.log*
